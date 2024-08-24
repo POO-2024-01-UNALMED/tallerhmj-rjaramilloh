@@ -29,11 +29,6 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 		}
 	}
 	
-	public int compareTo(Futbolista o) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-	
 	public abstract boolean jugarConLasManos();
 
 	public String getNombre() {
@@ -55,5 +50,12 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	public String getPosicion() {
 		return posicion;
 	}
+
+	public int compareTo(Object o) {
+		return 0;
+	}
 	
+	public int compareTo(Futbolista o) {
+		return 0;
+	}
 }
