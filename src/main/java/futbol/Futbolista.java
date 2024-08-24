@@ -7,7 +7,9 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	final private String posicion;
 	
 	public Futbolista () {
-		this("Maradona",30,"delantero");
+		nombre = "Maradona";
+		edad = 30;
+		posicion = "delantero";
 	}
 	
 	public Futbolista(String nombre, int edad, String posicion) {
