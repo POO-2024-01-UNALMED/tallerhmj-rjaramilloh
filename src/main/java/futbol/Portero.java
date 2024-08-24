@@ -14,11 +14,6 @@ public class Portero extends Futbolista{
 	public int compareTo(Portero o) {
 		return Math.abs( golesRecibidos - o.getGolesRecibidos());
 	}
-	@Override
-	public int compareTo(Futbolista o) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 	
 	@Override
 	public String toString() {
