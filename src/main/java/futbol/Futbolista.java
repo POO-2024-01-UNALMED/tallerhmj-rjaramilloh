@@ -7,9 +7,7 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	final private String posicion;
 	
 	public Futbolista () {
-		nombre = "Maradona";
-		edad = 30;
-		posicion = "delantero";
+		this("Maradona",30,"delantero");
 	}
 	
 	public Futbolista(String nombre, int edad, String posicion) {
@@ -23,7 +21,7 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	}
 	
 	public boolean equals(Futbolista f) {
-		if (this == f) {
+		if (this.equals(f)) {
 			return true;
 		}
 		else {
